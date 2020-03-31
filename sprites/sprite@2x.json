@@ -1,5 +1,5 @@
 {
-  "mailbox": {
+  "building": {
     "height": 60,
     "pixelRatio": 1,
     "sdf": true,
@@ -7,7 +7,7 @@
     "x": 0,
     "y": 0
   },
-  "market": {
+  "goverment-building": {
     "height": 60,
     "pixelRatio": 1,
     "sdf": true,
@@ -15,12 +15,52 @@
     "x": 60,
     "y": 0
   },
-  "police": {
+  "hospital": {
     "height": 60,
     "pixelRatio": 1,
     "sdf": true,
     "width": 60,
     "x": 0,
+    "y": 60
+  },
+  "mailbox": {
+    "height": 60,
+    "pixelRatio": 1,
+    "sdf": true,
+    "width": 60,
+    "x": 60,
+    "y": 60
+  },
+  "market": {
+    "height": 60,
+    "pixelRatio": 1,
+    "sdf": true,
+    "width": 60,
+    "x": 120,
+    "y": 0
+  },
+  "pharmacy": {
+    "height": 60,
+    "pixelRatio": 1,
+    "sdf": true,
+    "width": 60,
+    "x": 180,
+    "y": 0
+  },
+  "police": {
+    "height": 60,
+    "pixelRatio": 1,
+    "sdf": true,
+    "width": 60,
+    "x": 120,
+    "y": 60
+  },
+  "school": {
+    "height": 60,
+    "pixelRatio": 1,
+    "sdf": true,
+    "width": 60,
+    "x": 180,
     "y": 60
   }
 }
