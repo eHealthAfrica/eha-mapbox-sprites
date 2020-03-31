@@ -1,0 +1,14 @@
+{
+  "name": "custom-sprites",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "spritezero sprites/sprite icons/",
+    "sprites": "svgo -f ./icons && spritezero ./sprites/sprites ./icons — ratio=1 && spritezero ./sprites/sprites@2x ./icons -- ratio=2"
+  },
+  "dependencies": {
+    "@mapbox/spritezero-cli": "^2.1.0",
+    "svgo": "^1.3.2"
+  }
+}

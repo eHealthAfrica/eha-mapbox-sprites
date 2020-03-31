@@ -1,0 +1,26 @@
+{
+  "mailbox": {
+    "height": 60,
+    "pixelRatio": 1,
+    "sdf": true,
+    "width": 60,
+    "x": 0,
+    "y": 0
+  },
+  "market": {
+    "height": 60,
+    "pixelRatio": 1,
+    "sdf": true,
+    "width": 60,
+    "x": 60,
+    "y": 0
+  },
+  "police": {
+    "height": 60,
+    "pixelRatio": 1,
+    "sdf": true,
+    "width": 60,
+    "x": 0,
+    "y": 60
+  }
+}
