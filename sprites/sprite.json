@@ -1,10 +1,18 @@
 {
+  "gas-station": {
+    "height": 512,
+    "pixelRatio": 1,
+    "sdf": true,
+    "width": 512,
+    "x": 0,
+    "y": 0
+  },
   "hospital": {
     "height": 60,
     "pixelRatio": 1,
     "sdf": true,
     "width": 60,
-    "x": 0,
+    "x": 512,
     "y": 0
   },
   "market": {
@@ -12,7 +20,7 @@
     "pixelRatio": 1,
     "sdf": true,
     "width": 60,
-    "x": 60,
+    "x": 572,
     "y": 0
   },
   "pharmacy": {
@@ -20,23 +28,23 @@
     "pixelRatio": 1,
     "sdf": true,
     "width": 60,
-    "x": 0,
-    "y": 60
+    "x": 632,
+    "y": 0
   },
   "police": {
     "height": 60,
     "pixelRatio": 1,
     "sdf": true,
     "width": 60,
-    "x": 60,
-    "y": 60
+    "x": 692,
+    "y": 0
   },
   "postal": {
     "height": 60,
     "pixelRatio": 1,
     "sdf": true,
     "width": 60,
-    "x": 120,
+    "x": 752,
     "y": 0
   },
   "prison": {
@@ -44,7 +52,7 @@
     "pixelRatio": 1,
     "sdf": true,
     "width": 60,
-    "x": 180,
+    "x": 812,
     "y": 0
   },
   "school": {
@@ -52,16 +60,16 @@
     "pixelRatio": 1,
     "sdf": true,
     "width": 60,
-    "x": 120,
-    "y": 60
+    "x": 872,
+    "y": 0
   },
   "town-hall": {
     "height": 60,
     "pixelRatio": 1,
     "sdf": true,
     "width": 60,
-    "x": 180,
-    "y": 60
+    "x": 932,
+    "y": 0
   },
   "worship-house": {
     "height": 60,
@@ -69,6 +77,6 @@
     "sdf": true,
     "width": 60,
     "x": 0,
-    "y": 120
+    "y": 512
   }
 }
