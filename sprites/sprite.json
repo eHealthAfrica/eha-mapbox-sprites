@@ -1,5 +1,5 @@
 {
-  "hospital-15": {
+  "hospital": {
     "height": 60,
     "pixelRatio": 1,
     "sdf": true,
@@ -23,7 +23,7 @@
     "x": 0,
     "y": 60
   },
-  "police-15": {
+  "police": {
     "height": 60,
     "pixelRatio": 1,
     "sdf": true,
@@ -31,7 +31,7 @@
     "x": 60,
     "y": 60
   },
-  "post-15": {
+  "postal": {
     "height": 60,
     "pixelRatio": 1,
     "sdf": true,
@@ -39,7 +39,7 @@
     "x": 120,
     "y": 0
   },
-  "prison-15": {
+  "prison": {
     "height": 60,
     "pixelRatio": 1,
     "sdf": true,
@@ -55,7 +55,7 @@
     "x": 120,
     "y": 60
   },
-  "town-hall-15": {
+  "town-hall": {
     "height": 60,
     "pixelRatio": 1,
     "sdf": true,
