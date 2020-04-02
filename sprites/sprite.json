@@ -1,18 +1,10 @@
 {
-  "college-15": {
-    "height": 60,
-    "pixelRatio": 1,
-    "sdf": true,
-    "width": 60,
-    "x": 0,
-    "y": 0
-  },
   "hospital-15": {
     "height": 60,
     "pixelRatio": 1,
     "sdf": true,
     "width": 60,
-    "x": 60,
+    "x": 0,
     "y": 0
   },
   "market": {
@@ -20,15 +12,15 @@
     "pixelRatio": 1,
     "sdf": true,
     "width": 60,
-    "x": 0,
-    "y": 60
+    "x": 60,
+    "y": 0
   },
-  "pharmacy-15": {
+  "pharmacy": {
     "height": 60,
     "pixelRatio": 1,
     "sdf": true,
     "width": 60,
-    "x": 60,
+    "x": 0,
     "y": 60
   },
   "police-15": {
@@ -36,10 +28,18 @@
     "pixelRatio": 1,
     "sdf": true,
     "width": 60,
+    "x": 60,
+    "y": 60
+  },
+  "post-15": {
+    "height": 60,
+    "pixelRatio": 1,
+    "sdf": true,
+    "width": 60,
     "x": 120,
     "y": 0
   },
-  "post-15": {
+  "prison-15": {
     "height": 60,
     "pixelRatio": 1,
     "sdf": true,
@@ -47,7 +47,7 @@
     "x": 180,
     "y": 0
   },
-  "prison-15": {
+  "school": {
     "height": 60,
     "pixelRatio": 1,
     "sdf": true,
@@ -62,5 +62,13 @@
     "width": 60,
     "x": 180,
     "y": 60
+  },
+  "worship-house": {
+    "height": 60,
+    "pixelRatio": 1,
+    "sdf": true,
+    "width": 60,
+    "x": 0,
+    "y": 120
   }
 }
