@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "sprites": "svgo -f ./icons && spritezero ./sprites/sprite ./icons — ratio=1 && spritezero ./sprites/sprite@2x ./icons -- ratio=2 && node ./build"
+    "sprites": "spritezero ./sprites/sprite ./icons — ratio=1 && spritezero ./sprites/sprite@2x ./icons -- ratio=2 && node ./build",
+    "sprites-optimize": "svgo -f ./icons && spritezero ./sprites/sprite ./icons — ratio=1 && spritezero ./sprites/sprite@2x ./icons -- ratio=2 && node ./build"
   },
   "dependencies": {
     "@mapbox/spritezero-cli": "^2.1.0",
