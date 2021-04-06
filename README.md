@@ -1,6 +1,6 @@
 # Custom Sprite
 
-Custom sprites for Mapbox gl Maps
+Custom sprites for Mapbox GL Maps
 
 ## System Requirements
 
@@ -20,5 +20,16 @@ Custom sprites for Mapbox gl Maps
 3. Generate Sprites
 
     ```bash
-    yarn sprites
+    yarn build
+    ```
+
+4. Include in MapBox styles file
+
+    ```js
+    {
+        version: 1,
+        name: 'My map',
+        // ...
+        sprite: 'https://raw.githubusercontent.com/ehealthAfrica/custom-sprites/master/dist/eha-mapping',
+    }
     ```
