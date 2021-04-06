@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+
+  sprites:
+    image: eha-sprites
+    build: .
+    volumes:
+      # source folders
+      - ./icons:/usr/src/icons
+      - ./build.js:/usr/src/build.js
+      - ./package.json:/usr/src/package.json
+      # distribution folder
+      - ./dist:/usr/src/dist
+    command: yarn build
