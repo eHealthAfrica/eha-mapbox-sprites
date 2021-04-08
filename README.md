@@ -46,11 +46,11 @@ eHealth sprites for Mapbox GL Maps
 
 Include in the MapBox styles file
 
-    ```js
-    {
-        version: 1,
-        name: 'My map',
-        // ...
-        sprite: 'https://raw.githubusercontent.com/ehealthAfrica/eha-mapbox-sprites/master/dist/eha-mapping',
-    }
-    ```
+```javascript
+{
+    version: 1,
+    name: 'My map',
+    // ...
+    sprite: 'https://raw.githubusercontent.com/ehealthAfrica/eha-mapbox-sprites/master/dist/eha-mapping',
+}
+```
