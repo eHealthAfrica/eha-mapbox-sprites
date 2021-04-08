@@ -1,6 +1,6 @@
-# Custom Sprite
+# eHA MapBox Sprites
 
-Custom sprites for Mapbox GL Maps
+eHealth sprites for Mapbox GL Maps
 
 ## System Requirements
 
