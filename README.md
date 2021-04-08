@@ -23,17 +23,6 @@ eHealth sprites for Mapbox GL Maps
     yarn build
     ```
 
-4. Include in MapBox styles file
-
-    ```js
-    {
-        version: 1,
-        name: 'My map',
-        // ...
-        sprite: 'https://raw.githubusercontent.com/ehealthAfrica/custom-sprites/master/dist/eha-mapping',
-    }
-    ```
-
 ### With Docker
 
 - [docker](https://docs.docker.com/engine/install/) >= 18.06.x
@@ -53,13 +42,15 @@ eHealth sprites for Mapbox GL Maps
     docker-compose up
     ```
 
-4. Include in MapBox styles file
+## How to use
+
+Include in the MapBox styles file
 
     ```js
     {
         version: 1,
         name: 'My map',
         // ...
-        sprite: 'https://raw.githubusercontent.com/ehealthAfrica/custom-sprites/master/dist/eha-mapping',
+        sprite: 'https://raw.githubusercontent.com/ehealthAfrica/eha-mapbox-sprites/master/dist/eha-mapping',
     }
     ```
