@@ -1,14 +1,15 @@
 {
   "name": "custom-sprites",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "main": "build.js",
+  "license": "Apache-2.0",
   "scripts": {
-    "sprites": "spritezero ./sprites/sprite ./icons — ratio=1 && spritezero ./sprites/sprite@2x ./icons -- ratio=2 && node ./build",
-    "sprites-optimize": "svgo -f ./icons && spritezero ./sprites/sprite ./icons — ratio=1 && spritezero ./sprites/sprite@2x ./icons -- ratio=2 && node ./build"
+    "sprites-1x": "spritezero --ratio=1 ./dist/eha-mapping    ./icons",
+    "sprites-2x": "spritezero --ratio=2 ./dist/eha-mapping@2x ./icons",
+    "sprites": "yarn sprites-1x && yarn sprites-2x",
+    "build": "yarn sprites && node ./build"
   },
   "dependencies": {
-    "@mapbox/spritezero-cli": "^2.1.0",
-    "svgo": "^1.3.2"
+    "@mapbox/spritezero-cli": "^2.1.0"
   }
 }
